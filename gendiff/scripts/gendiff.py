@@ -1,4 +1,5 @@
 import argparse
+import gendiff.gendiff
 
 
 def main():
@@ -11,6 +12,9 @@ def main():
     parser.add_argument('-f', '--format', help='set format of output')
 
     args = parser.parse_args()
+
+    print(args.first_file)
+    gendiff.gendiff.gendiff(args.first_file, args.second_file)
 
     
 
