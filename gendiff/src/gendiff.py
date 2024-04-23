@@ -28,7 +28,7 @@ def generate_diff(file_one, file_two):
                 result_diff.append(f"- {item}: {json_one[item]}")
                 result_diff.append(f"+ {item}: {json_two[item]}")
             else:
-                result_diff.append(f"{item}: {json_one[item]}")
+                result_diff.append(f"  {item}: {json_one[item]}")
 
     difference_string = '\n'.join(result_diff)
     print(difference_string)
