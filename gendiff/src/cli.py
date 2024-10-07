@@ -1,4 +1,5 @@
 import argparse
+from src.formatter.visualizer import FORMATS, DEFAULT_FORMAT
 
 
 def parse_arguments():
@@ -8,7 +9,7 @@ def parse_arguments():
     Parameters:
         - first_file (str): Path to first file for comparison
         - second_file (str): Path to second file for comparison
-        - format (str): format for comparison
+        - format (str): format for comparison (default: stylish)
 
     Returns:
         args: entered values.
@@ -18,7 +19,8 @@ def parse_arguments():
 
     parser.add_argument('first_file')
     parser.add_argument('second_file')
-    parser.add_argument('-f', '--format', help='set the format of output')
+    parser.add_argument('-f', '--format', help='set the format of output',
+                        choices=FORMATS, default=DEFAULT_FORMAT)
 
     args = parser.parse_args()
 
