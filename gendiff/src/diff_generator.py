@@ -53,7 +53,7 @@ def add_node(key: Any, node_type: str,
             'old': oldValue,
             'new': value
         },
-        'node_type': node_type
+        'node type': node_type
     }
 
     if children is not None:
