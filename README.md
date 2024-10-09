@@ -23,12 +23,16 @@ This project was build using these tools/library:
 ### Examples of work:
 
 **Flat JSON**
-[![asciicast](https://asciinema.org/a/jyXiaoQBWjOl3Ww6pXurXlXAw.svg)](https://asciinema.org/a/jyXiaoQBWjOl3Ww6pXurXlXAw)
+- [![asciicast](https://asciinema.org/a/jyXiaoQBWjOl3Ww6pXurXlXAw.svg)](https://asciinema.org/a/jyXiaoQBWjOl3Ww6pXurXlXAw)
+
 **Flat YAML**
-[![asciicast](https://asciinema.org/a/4uR70X9fXo6z4U6f89B9dvQ9j.svg)](https://asciinema.org/a/4uR70X9fXo6z4U6f89B9dvQ9j)
+- [![asciicast](https://asciinema.org/a/4uR70X9fXo6z4U6f89B9dvQ9j.svg)](https://asciinema.org/a/4uR70X9fXo6z4U6f89B9dvQ9j)
+
 **Nested JSON**
-[![asciicast](https://asciinema.org/a/pREJB1dqOsmpuCdSzTEKuilM0.svg)](https://asciinema.org/a/pREJB1dqOsmpuCdSzTEKuilM0)
+- [![asciicast](https://asciinema.org/a/pREJB1dqOsmpuCdSzTEKuilM0.svg)](https://asciinema.org/a/pREJB1dqOsmpuCdSzTEKuilM0)
+
 **Nested JSON - Plain format**
-[![asciicast](https://asciinema.org/a/V8qPhkqZ1YzK1he2mDr2sGxqI.svg)](https://asciinema.org/a/V8qPhkqZ1YzK1he2mDr2sGxqI)
+- [![asciicast](https://asciinema.org/a/V8qPhkqZ1YzK1he2mDr2sGxqI.svg)](https://asciinema.org/a/V8qPhkqZ1YzK1he2mDr2sGxqI)
+
 **Nested JSON - JSON format**
-[![asciicast](https://asciinema.org/a/gMQSdVzWf3HBQCbAQwUDRJ7vf.svg)](https://asciinema.org/a/gMQSdVzWf3HBQCbAQwUDRJ7vf)
+- [![asciicast](https://asciinema.org/a/gMQSdVzWf3HBQCbAQwUDRJ7vf.svg)](https://asciinema.org/a/gMQSdVzWf3HBQCbAQwUDRJ7vf)
