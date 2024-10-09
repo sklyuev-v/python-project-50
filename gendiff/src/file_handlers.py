@@ -10,10 +10,10 @@ def collect_file_data(file_path: str) -> tuple:
     Returns:
         tuple: content from file, file extension
     """
-    return read_from_file(file_path), get_file_extension(file_path)
+    return _read_from_file(file_path), _get_file_extension(file_path)
 
 
-def read_from_file(file_path: str) -> str:
+def _read_from_file(file_path: str) -> str:
     try:
         with open(file_path, 'r') as content:
             return content.read()
@@ -21,6 +21,6 @@ def read_from_file(file_path: str) -> str:
         raise RuntimeError(f"Failed to open file '{file_path}'")
 
 
-def get_file_extension(file_path: str) -> str:
+def _get_file_extension(file_path: str) -> str:
     _, file_extension = path.splitext(file_path)
     return file_extension.lower()
