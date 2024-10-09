@@ -1,7 +1,7 @@
 from typing import Callable
 from gendiff.src.formatter.stylish import visualize_stylish
 from gendiff.src.formatter.json import visualize_json
-from gendiff.src.formatter.plain import visualize_flat
+from gendiff.src.formatter.plain import visualize_plain
 
 FORMAT_STYLISH = 'stylish'
 FORMAT_PLAIN = 'plain'
@@ -27,7 +27,7 @@ def visualize_tree(diff: dict, format: str) -> Callable[[dict], str]:
     if format == FORMAT_STYLISH:
         return visualize_stylish(diff)
     elif format == FORMAT_PLAIN:
-        return visualize_flat(diff)
+        return visualize_plain(diff)
     elif format == FORMAT_JSON:
         return visualize_json(diff)
     else:
